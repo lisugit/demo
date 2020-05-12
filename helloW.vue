@@ -24,6 +24,7 @@
 </template>
 
 <script>
+	import {iToast} from 'mint-ui'
 	import {Toast} from 'mint-ui'
 	Date.prototype.format = function(fmt) {
 	     var o = { 
